@@ -1,0 +1,9 @@
+There does not seem to be any way to contact you or to report issues.
+
+The module does not work in freepbx / asterisk, when you try and install it you get an error and it fails.
+
+/var/www/html/admin/modules/endpointman/lib/json.class.php  :  line 234
+
+ $bytes = (ord($utf16{0}) << 8) | ord($utf16{1});
+ 
+ "Array and string offset access syntax with curly braces is deprecated"
